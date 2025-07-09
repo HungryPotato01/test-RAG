@@ -32,7 +32,7 @@ The step should be in the following format:
 _IMPORTANT_: This example of a plan is only to give you an idea of how to structure your plan with a few sample tools (in this example <search_helpcenter> and <reply>), it's not strict rules or how you should structure every plan - it's using variable names to give you an idea of how to structure your plan, think in possible paths and use <tool_calls> as variable names, and only general descriptions in your step descriptions.
 
 Scenario: The user has error with feature_name and have provided basic information about the error
-
+"""
 <plan>
     <step>
         <action_name>search_helpcenter</action_name>
@@ -63,3 +63,4 @@ Scenario: The user has error with feature_name and have provided basic informati
         </if_block>
     </if_block>
 </plan>
+"""
